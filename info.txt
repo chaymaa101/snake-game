@@ -1,0 +1,22 @@
+Code Explanation
+The code starts by importing the necessary modules: pygame, time, and random. We then initialize the game and define the colors to be used in the game.
+
+Next, we set the width and height of the game window and define the size of each snake segment and the speed of the snake.
+
+We create the game window using the pygame.display.set_mode() function and set the caption of the window to "Snake Game".
+
+A clock object is created using pygame.time.Clock() to control the game's frame rate.
+
+We define a font style for displaying the score on the game window.
+
+The show_score() function is defined to display the score on the game window. It takes the score as a parameter and renders it using the defined font style.
+
+The create_snake() function is defined to create the snake on the game window. It takes the segment size and the snake list as parameters and uses the pygame.draw.rect() function to draw each segment of the snake.
+
+The run_game() function is defined to run the game. It initializes the game variables and creates the initial snake and food positions. It then enters a game loop where it handles user input, updates the snake's position, checks for collisions, and updates the game window. The function also handles game over scenarios and allows the player to restart the game.
+
+Finally, the run_game() function is called to start the game.
+
+This code generates a fully functional Snake Game using Python and the Pygame library. The player controls a snake that moves around the game window, eating food to grow longer. The game ends if the snake collides with the boundaries of the window or its own body. The score is displayed on the game window, and the player can restart the game after it ends.
+
+Enjoy playing the Snake Game!
